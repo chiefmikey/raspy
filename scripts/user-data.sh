@@ -11,7 +11,7 @@ export REPO="raspy"
 export GH_USER="chiefmikey"
 export AWS_REGION="us-east-2"
 export AWS_SECRET_ID="auth-raspy"
-GH_PASSWORD=$(aws secretsmanager --region "${AWS_REGION}" get-secret-value --secret-id "${AWS_SECRET_ID}" | jq -r ".SecretString" | jq -r .\""${AWS_SECRET_ID}"\")
+GH_PASSWORD="$(aws secretsmanager --region "${AWS_REGION}" get-secret-value --secret-id "${AWS_SECRET_ID}" | jq -r ".SecretString" | jq -r .\""${AWS_SECRET_ID}"\")"
 export GH_PASSWORD
 sleep 10
 git init
