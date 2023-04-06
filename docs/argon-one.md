@@ -1,4 +1,4 @@
-# argon one (v2) pi 4 script
+# argon one v2 pi 4 script
 
 ## installation
 
