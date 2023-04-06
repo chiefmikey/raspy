@@ -10,20 +10,19 @@ curl https://download.argon40.com/argon1.sh | bash
 
 ### power button functions
 
-| ARGON ONE (V2) PI 4 STATE |       ACTION        |          FUNCTION           |
-| :-----------------------: | :-----------------: | :-------------------------: |
-|            OFF            |     Short Press     |           Turn ON           |
-|            ON             | Long Press (>= 3 s) | Soft Shutdown and Power Cut |
-|            ON             | Short Press (< 3 s) |           Nothing           |
-|            ON             |     Double Tap      |           Reboot            |
-|            ON             | Long Press (>= 5 s) |       Forced Shutdown       |
+| state |       action        |          function           |
+| :---: | :-----------------: | :-------------------------: |
+|  OFF  |     short press     |           turn on           |
+|  ON   | long press (>= 3 s) | soft shutdown and power cut |
+|  ON   | short press (< 3 s) |           nothing           |
+|  ON   |     double tap      |           reboot            |
+|  ON   | long press (>= 5 s) |       forced shutdown       |
 
 ### fan speed
 
-Upon installation of the Argon ONE (V2) Pi 4 script by default, the settings of
-the Argon ONE (V2) Pi 4 cooling system are as follows:
+#### defaults
 
-| CPU TEMP | FAN POWER |
+| cpu temp | fan power |
 | :------: | :-------: |
 |   55 C   |    10%    |
 |   60 C   |    55%    |
