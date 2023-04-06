@@ -1,0 +1,31 @@
+{
+  "name": "raspy",
+  "version": "1.0.0",
+  "description": "raspy",
+  "scripts": {
+    "fix": "eslint --fix '**/*'"
+  },
+  "devDependencies": {
+    "mikey-pro": "^6.4.17"
+  },
+  "homepage": "https://github.com/chiefmikey/raspy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiefmikey/raspy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chiefmikey/raspy/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "raspy"
+  ],
+  "author": "Mikl Wolfe <wolfe@mikl.io> (https://mikl.io)",
+  "prettier": "@mikey-pro/prettier-config",
+  "eslintConfig": {
+    "extends": "@mikey-pro/eslint-config"
+  },
+  "stylelint": {
+    "extends": "@mikey-pro/stylelint-config"
+  }
+}
