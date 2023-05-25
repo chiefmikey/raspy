@@ -2,6 +2,10 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# directories
+export HOME="/home/raspy"
+export SCRIPTS="${HOME}/scripts"
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

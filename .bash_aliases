@@ -1,7 +1,3 @@
-# directories
-export HOME="/home/raspy"
-export SCRIPTS="${HOME}/scripts"
-
 # server
 alias upgrade="sudo ${SCRIPTS}/server-system.sh"
 alias rboot="sudo ${SCRIPTS}/server-reboot.sh"
