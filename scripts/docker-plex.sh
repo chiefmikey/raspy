@@ -6,5 +6,5 @@ docker run -dt \
     -e PLEX_CLAIM="${1}" \
     -v /config/plex:/config \
     -v /transcode:/transcode \
-    -v /media:../plex/media \
+    -v /media:/media \
     spritsail/plex-media-server
