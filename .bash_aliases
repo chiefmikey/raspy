@@ -12,4 +12,10 @@ alias mem="free -h"
 alias smem="htop"
 alias motd="sudo run-parts /etc/update-motd.d"
 
+# commands
+alias x-scripts="chmod -R +x ${SCRIPTS}"
+
+# install
+alias install-docker="sudo ${SCRIPTS}/install-docker.sh"
+
 alias list-alias="cat ${HOME}/.bash_aliases"
