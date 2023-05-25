@@ -12,6 +12,6 @@ alias motd="sudo run-parts /etc/update-motd.d"
 alias x-scripts="chmod -R +x ${SCRIPTS}"
 
 # docker
-alias plex="${SCRIPTS}/docker-plex.sh ${1}"
+alias plex="${SCRIPTS}/docker/docker-plex.sh ${1}"
 
 alias list-alias="cat ${HOME}/.bash_aliases"
