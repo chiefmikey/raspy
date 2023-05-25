@@ -1,10 +1,14 @@
 #!/bin/sh
 
 set -x
+chsh -s /bin/bash
 cd /home/raspy || exit
 apt update -y
 apt upgrade -y
 apt install -y wget zip unzip git jq awscli curl
+snap install docker
+groupadd docker
+usermod -aG docker "${USER}"
 export USER="chiefmikey"
 export EMAIL="wolfemikl@gmail.com"
 export REPO="raspy"
