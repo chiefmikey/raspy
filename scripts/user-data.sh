@@ -5,7 +5,7 @@ chsh -s /bin/bash
 cd /home/raspy || exit
 apt update -y
 apt upgrade -y
-apt install -y wget zip unzip git jq awscli curl
+apt install -y wget zip unzip git jq awscli curl snapd ubuntu-release-upgrader-core
 snap install docker
 groupadd docker
 usermod -aG docker "${USER}"
