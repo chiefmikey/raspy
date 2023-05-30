@@ -1,0 +1,1 @@
+# document fresh linux install
