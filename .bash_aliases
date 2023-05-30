@@ -11,6 +11,9 @@ alias motd="sudo run-parts /etc/update-motd.d"
 # commands
 alias x-scripts="chmod -R +x ${SCRIPTS}"
 
+#git
+alias fetch="sudo ${SCRIPTS}/server-fetch.sh"
+
 # docker
 alias plex="${SCRIPTS}/docker/docker-plex.sh ${1}"
 
