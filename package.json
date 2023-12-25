@@ -6,7 +6,7 @@
     "fix": "eslint --fix '**/*'"
   },
   "devDependencies": {
-    "mikey-pro": "^6.5.13"
+    "mikey-pro": "^6.6.8"
   },
   "homepage": "https://github.com/chiefmikey/raspy#readme",
   "repository": {
